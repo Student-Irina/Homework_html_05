@@ -22,12 +22,12 @@ body{
 	font-family: "Helvetica Neue Light";
 	color:#fff;
 	font-size:14px;
-}
-.wrapper{
-	height:1028px;
 	background-image: url("../img/background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.wrapper{
+	height:1028px;
 	position: relative;		
 }
 .menu{   
@@ -98,7 +98,11 @@ body{
 	clear:both;
 	height:0;
 }
-
+.login{
+	display:block;
+	padding: 9px 5px 9px 5px;
+}
+.login,
 .link{
 	color: #ccf;
 }
@@ -166,8 +170,12 @@ p.size-24{
 	box-sizing: border-box;
 	line-height: 35px;
 }
-.right_logo span{
+.right_logo p{
 	color:#fff;
+}
+.right_logo>p{
+display:inline-block;
+text-indent:5px;
 }
 .bold{
 	font-family: 'Helvetica Neue Heavy';
