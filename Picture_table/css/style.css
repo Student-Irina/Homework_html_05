@@ -18,6 +18,10 @@ td {
 .row3 {
   height: 70px;
 }
+.row3>td,
+.row5>td{
+  border:none;
+}
 
 .row6,
 .row7 {
@@ -28,7 +32,8 @@ td {
 .row9 {
   height: 40px;
 }
-.row1>td{
+.row1>td,
+.row7>.col2{
   border-top:none;
 }
 .row1>td:first-child,
@@ -47,7 +52,10 @@ td {
 {
   border-right:none;
 }
+.row2>td:first-child,
+.row4>td:last-child, 
 .row7>.col1,
+.row6>.col2,
 .row8>.col2-3,
 .row9>td
 {
